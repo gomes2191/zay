@@ -1,0 +1,4 @@
+<?php require ('partials/header.php'); ?>
+<h1 class="<?= theme('text-white-75','text-dark') ?>">Sobre</h1>
+<p class="<?= theme('text-white-75','text-dark') ?>">PHP MVC Framework é uma estrutura rápida MVC PHP projetada para permitir a fácil criação de sites e aplicativos web poderosos. É inspirado no: <a class="<?= theme('text-light', 'text-primary') ?>" href="https://laravel.com/">Laravel</a>, e tem um construtor de consultas, ORM, paginação, um sistema de templating leve, e muito mais. Você pode encontrar o código fonte para ele <a class="<?= theme('text-light', 'text-primary') ?>" href="<?= $link ?>">aqui</a>.</p>
+<?php require ('partials/footer.php'); ?>

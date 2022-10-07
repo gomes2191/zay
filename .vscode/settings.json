@@ -1,0 +1,93 @@
+{
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.suggestSelection": "first",
+    "window.zoomLevel": 0,
+    "sync.gist": "df4aa8b3cd3bbc60c9ff92e9b0152929",
+    "sync.forceDownload": false,
+    "files.autoSave": "afterDelay",
+    "vsicons.dontShowNewVersionMessage": true,
+    "[java]": {
+      "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+    "java.semanticHighlighting.enabled": true,
+    "debug.onTaskErrors": "debugAnyway",
+    "window.autoDetectColorScheme": true,
+    "window.doubleClickIconToClose": true,
+    "window.openFilesInNewWindow": "on",
+    "settingsSync.ignoredSettings": [],
+    "[php]": {
+      "editor.formatOnSave": false,
+      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    },
+
+    "git.autofetch": true,
+    "editor.quickSuggestions": {
+      "comments": true
+    },
+
+    "files.watcherExclude": {
+      "**/cache/**": true,
+      "**/vendor/**": true
+    },
+
+    "files.trimTrailingWhitespace": true,
+    "php.suggest.basic": false,
+    "path-intellisense.extensionOnImport": true,
+    "php.validate.enable": true,
+    "files.associations": {
+      "*.module": "php"
+    },
+
+    "phpcs.standard": "",
+    "phpcs.enable": true,
+    "phpcs.showSources": true,
+
+    "phpcs.ignorePatterns": [
+      "*/ignored-file.php",
+      "*/cache/*",
+      "*/vendor/*"
+    ],
+
+    "phpcs.executablePath": "",
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "workbench.colorTheme": "Dracula",
+    "beautify.config": "",
+
+    "beautify.language": {
+      "js": {
+        "type": [
+          "javascript",
+          "json",
+          "jsonc"
+        ],
+        "filename": [
+          ".jshintrc",
+          ".jsbeautifyrc"
+        ]
+      },
+      "css": [
+        "css",
+        "less",
+        "scss"
+      ],
+      "html": [
+        "htm",
+        "html"
+      ]
+    },
+
+    "sync.forceUpload": true,
+    "intelephense.telemetry.enabled": false,
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+
+  }
