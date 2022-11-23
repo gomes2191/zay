@@ -5,13 +5,13 @@ use PDO;
 use PDOException;
 class Connection
 {
-    
+
     // Cria uma conexão com o BD persistente para a aplicação.
     public static function make($config)
     {
         try {
             return new PDO(
-                $config['connection'].';dbname='.$config['name'],
+                $config['connection'],
                 $config['username'],
                 $config['password'],
                 $config['options']
