@@ -12,27 +12,9 @@
 				</a>
 			</li>
 			<li>
-				<a href="#">
-					<i class='bx bxs-shopping-bag-alt' ></i>
-					<span class="text">Produtos</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<i class='bx bxs-doughnut-chart' ></i>
-					<span class="text">Estatísticas</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<i class='bx bxs-message-dots' ></i>
-					<span class="text">Mensagem</span>
-				</a>
-			</li>
-			<li>
-				<a href="#">
+				<a href="/users">
 					<i class='bx bxs-group' ></i>
-					<span class="text">Equipe</span>
+					<span class="text">Usuários</span>
 				</a>
 			</li>
 		</ul>
