@@ -1,10 +1,10 @@
 <?php require('partials/header.php'); ?>
 <h1 class="<?= theme('text-white-75', 'text-dark') ?>">Insira o nome:</h1>
 <div class="form-group">
-	<form method="POST" action="/users">
-        <input class="form-control <?= theme('bg-dark text-white-75','bg-white') ?>" name="name"/>
-	    <button class="form-control <?= theme('bg-dark text-white-75','bg-white') ?>" type="submit">Gravar</button>
-	</form>
+    <form method="POST" action="/users">
+        <input class="form-control <?= theme('bg-dark text-white-75', 'bg-white') ?>" name="name" />
+        <button class="form-control <?= theme('bg-dark text-white-75', 'bg-white') ?>" type="submit">Gravar</button>
+    </form>
 </div>
 <ul>
     <?php foreach ($users as $user) : ?>
@@ -14,4 +14,4 @@
 
 <?= paginate('users', $page, $limit, $count); ?>
 
-<?php require ('partials/footer.php'); ?>
+<?php require('partials/footer.php'); ?>
