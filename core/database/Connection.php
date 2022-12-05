@@ -3,6 +3,7 @@ namespace App\Core\Database;
 use App\Core\App;
 use PDO;
 use PDOException;
+
 class Connection
 {
 

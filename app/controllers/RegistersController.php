@@ -11,13 +11,14 @@ class RegistersController
      */
     public function index($vars = [])
     {
+        $title = 'Adicionar usuário - ';
         $user = new Register();
         $count = $user->count();
         $limit = 5;
         $page = $vars['page'] ?? 1;
         $offset = ($page - 1) * $limit;
         $users = $user->where([['id', '>', '0']], $limit, $offset)->get();
-        return view('/register/register', compact('users', 'count', 'page', 'limit'));
+        return view('/register/register', compact('users', 'count', 'page', 'limit', 'title'));
     }
 
     /*
