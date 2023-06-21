@@ -1,4 +1,4 @@
-# PHP-MVC-Framework
+# ZAY-Framework
 Estrutura simples PHP MVC. Desenvolvida em 2022, faz uso do Composer para gerenciar as dependência e foi projetada para ser muito simples de usar. Inspirado no Laravel.
 
 # Requisitos
