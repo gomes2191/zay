@@ -12,13 +12,13 @@ Nota: Recomenda-se que você instale o LAMP.
 Clone o repositório
 
 ```
-git clone https://github.com/gomes2191/
+git clone https://github.com/gomes2191/zay
 ```
 
 Acesse o diretório do repositório
 
 ```
-cd PHP-MVC-Framework
+cd zay
 ```
 
 Executar o composer para instalar quaisquer dependências php
